@@ -1,0 +1,8 @@
+import com.reviso.TimeSpent
+
+model {
+	Iterable<TimeSpent> timeSpentList
+}
+
+json tmpl.timeSpent(timeSpentList ?: [])
+

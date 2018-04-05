@@ -1,0 +1,7 @@
+import com.reviso.Task
+
+model {
+	Task task
+}
+
+json tmpl.task(task)

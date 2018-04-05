@@ -1,0 +1,7 @@
+import com.reviso.Project
+
+model {
+	Project project
+}
+
+json tmpl.project(project)

@@ -1,0 +1,7 @@
+import com.reviso.TimeSpent
+
+model {
+	TimeSpent timeSpent
+}
+
+json tmpl.timeSpent(timeSpent)
